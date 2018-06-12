@@ -1,7 +1,8 @@
 #!/bin/bash
 
-chmod +x EXECS_LINUX/*_linux64
-chmod +x RUN_DIRECTORY/EXAMPLE_LINUX/*.sh
+chmod +x bin/linux/*_linux64
+chmod +x examples/main/*/*.sh
+dos2unix examples/main/*/*.sh
 
 
 
